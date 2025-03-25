@@ -45,6 +45,12 @@
   .about-containers {
     margin-top: 0;
   }
+  
+  /* Ensure buttons remain properly positioned on smaller screens */
+  .btn-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -91,13 +97,31 @@
     height: 46vw;
     justify-content: center;
   }
+  .section__pic-container1 {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 1.5rem;
+  }
   .section__text__p2 {
     font-size: 1.25rem;
+    margin-bottom: 0.5rem;
   }
   .title {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
   .text-container {
     text-align: justify;
+  }
+  
+  /* Make buttons more compact on mobile */
+  .btn {
+    padding: 0.6rem;
+    width: 7rem;
+  }
+  
+  /* Ensure proper spacing between elements on smaller screens */
+  #socials-container {
+    margin-top: 0.75rem;
   }
 }

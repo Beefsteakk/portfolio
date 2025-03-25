@@ -169,6 +169,23 @@ section {
   height: 80vh;
 }
 
+/* Target the profile image container */
+.section__pic-container1 {
+  display: flex;
+  height: 400px; /* Adjust height */
+  width: 400px; /* Adjust width */
+  margin: auto 0;
+  overflow: hidden; /* Ensure the image doesn't spill over */
+  border-radius: 50%; /* Create the circular container */
+}
+
+/* Target the profile image */
+.section__pic-container1 img {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -419,6 +436,8 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+
 
 /* FOOTER SECTION */
 
